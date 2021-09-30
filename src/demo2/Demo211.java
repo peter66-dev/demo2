@@ -5,8 +5,6 @@
  */
 package demo2;
 
-import java.util.ArrayList;
-
 /**
  *
  * @author Dell
@@ -17,18 +15,19 @@ public class Demo211 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int a, b;
+        int a;
+        int b;
         a = 3;
         b = 2;
-        int result1 = Sub(a, b, c);
+        int result1 = Sub(a, b);
         System.out.println(result1);
     }
 
-    public static int Sum(int a, int b) {
+    public static int sum(int a, int b) {
         return a + b;
     }
 
-    public static int Sub(int a, int b, String a) {
+    public static int sub(int a, int b) {
         return a - b;
     }
 
